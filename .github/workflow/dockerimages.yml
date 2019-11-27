@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - d*
     tags:
       - v*
     path-ignore:
@@ -11,6 +12,7 @@ on:
   pull_request:
     branches:
       - master
+      - d*
     path-ignore:
       - readme.md
   release:
